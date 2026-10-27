@@ -1,1 +1,71 @@
 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mola Café | Kahve ve Tatlı</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fffaf3;color:#493326}
+header{background:#4b3025;color:white;padding:22px 8%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+header h2{margin:0}
+nav a{color:white;text-decoration:none;margin:0 8px}
+.hero{text-align:center;padding:90px 20px;background:#ead7c0}
+.hero h1{font-size:42px;margin:0 0 15px}
+.hero p{font-size:18px}
+.btn{display:inline-block;background:#754b35;color:white;padding:12px 24px;border-radius:6px;text-decoration:none;margin-top:12px}
+section{padding:45px 8%;text-align:center}
+.menu{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.item{background:white;padding:25px;border-radius:12px;box-shadow:0 3px 12px #0001;width:210px}
+.item h3{color:#754b35}
+.price{font-weight:bold}
+footer{background:#4b3025;color:white;text-align:center;padding:20px}
+@media(max-width:600px){.hero h1{font-size:32px}header{gap:15px}nav a{display:inline-block;margin:5px}}
+</style>
+</head>
+<body>
+<header>
+<h2>☕ Mola Café</h2>
+<nav>
+<a href="#anasayfa">Ana Sayfa</a>
+<a href="#menu">Menü</a>
+<a href="#hakkimizda">Hakkımızda</a>
+<a href="#iletisim">İletişim</a>
+</nav>
+</header>
+
+<div class="hero" id="anasayfa">
+<h1>Kahvene Bir Mola Ver.</h1>
+<p>Güzel kahveler, tatlı anlar ve sıcacık bir ortam.</p>
+<a class="btn" href="#menu">Menümüzü Keşfet</a>
+</div>
+
+<section id="menu">
+<h2>Menümüz</h2>
+<div class="menu">
+<div class="item"><h3>Latte ☕</h3><p>Yumuşak içimli kahve.</p><p class="price">120 TL</p></div>
+<div class="item"><h3>Americano</h3><p>Sade ve güçlü kahve.</p><p class="price">95 TL</p></div>
+<div class="item"><h3>Cheesecake 🍰</h3><p>Kahvenin yanında tatlı bir mola.</p><p class="price">150 TL</p></div>
+<div class="item"><h3>Kruvasan 🥐</h3><p>Güne lezzetli bir başlangıç.</p><p class="price">100 TL</p></div>
+</div>
+</section>
+
+<section id="hakkimizda">
+<h2>Hakkımızda</h2>
+<p>Mola Café, kahve keyfini sıcak ve huzurlu bir ortamla buluşturmak için tasarlandı.</p>
+<p>Her fincanda küçük bir mutluluk, her molada güzel bir an.</p>
+</section>
+
+<section id="iletisim">
+<h2>Bize Ulaşın</h2>
+<p>📍 Bursa, Türkiye</p>
+<p>☕ Kahve molanızı bekliyoruz!</p>
+</section>
+
+<footer>
+<p>© 2026 Mola Café | Sevgiyle hazırlandı ☕</p>
+</footer>
+</body>
+</html>
+
